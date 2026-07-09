@@ -125,28 +125,6 @@ max     2019.000000  3.434401e+07'''
 #     - Time-series analysis
 #     - Data visualization
 #     - Machine learning after feature engineering
-
-# ============================================================
-# RELATIONSHIP BETWEEN FEATURES
-# ============================================================
-
-# country_code
-# -> Unique three-letter identifier for each country or region.
-# -> Used together with country_name.
-
-# country_name
-# -> Descriptive name of the country or region.
-# -> Multiple records exist because each country appears for different years.
-
-# year
-# -> Represents the year when CO2 emissions were recorded.
-# -> Combined with country_name, it uniquely identifies a yearly observation.
-
-# value
-# -> CO2 emissions in kilotons.
-# -> This is the target variable for most analyses.
-# -> Changes according to both country and year.
-
 # Feature Relationships:
 #
 # country_code ------\
